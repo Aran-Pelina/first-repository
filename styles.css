@@ -65,7 +65,7 @@ nav{
     position: absolute;
     left: 0;
     top: 0;
-    background: #fcd10f;
+    background: #777;
     border-bottom-right-radius: 35%;
     border-top-right-radius: 35%;
 }
@@ -92,8 +92,9 @@ nav{
 
 .left-col img
 {
-    width: 80%;
+    width: 110%;
     cursor: pointer;
+    left: 30px;
     
     transition: filter 1s;
     transition: transform 0.5s;
@@ -135,11 +136,13 @@ nav{
     margin-bottom: 20px;
     overflow: hidden;
     transition: transform 0.5s;
+    
 }
 
 .icon img
 {
-    width: 30px;
+    width: 220px;
+    
 }
 
 
